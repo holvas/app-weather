@@ -49,11 +49,6 @@ margin: 5px 0;
 color: #555;
 `;
 
-export const Label = styled.label`
-  margin-bottom: 20px;
-  font-size: 1em;
-`;
-
 
 /* //App.css
 .App {
