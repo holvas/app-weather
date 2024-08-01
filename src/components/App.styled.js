@@ -21,6 +21,7 @@ export const Title = styled.h1`
 
 export const WeatherInfo = styled.div`
   background: #fff;
+  margin-top: 12px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -48,6 +49,10 @@ margin: 5px 0;
 color: #555;
 `;
 
+export const Label = styled.label`
+  margin-bottom: 20px;
+  font-size: 1em;
+`;
 
 
 /* //App.css
