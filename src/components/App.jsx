@@ -8,7 +8,6 @@ const getDescription = (symbolCode) => {
     "clearsky_night": "Clear sky (night)",
     "lightrainshowers_day": "Light rain showers",
     "lightrainshowersandthunder_day": "Light rain showers and thunder",
-    // Add more mappings as needed
   };
 
   return descriptions[symbolCode] || "Unknown weather condition";
@@ -86,7 +85,7 @@ function App() {
           <WeatherInfo>
             <Temperature>{Math.round(weather.temperature)}°C</Temperature>
             <AdditionalInfo>
-              <InfoItem>Місто: {weather.location}</InfoItem>
+              {/* <InfoItem>Місто: {weather.location}</InfoItem> */}
               <InfoItem>Швидкість вітру: {weather.windSpeed} m/s</InfoItem>
               <InfoItem>Вологість: {weather.humidity}%</InfoItem>
               <InfoItem>Опади: {weather.precipitation} mm</InfoItem>
